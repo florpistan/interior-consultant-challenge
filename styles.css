@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --dark-color: #181719;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--dark-color);
+}
+
+.dark-bar {
+  background: var(--dark-color);
+}
+
+.borde-boton {
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+}
+
+.texto-navbar {
+  font-family: "Crimson Pro", serif;
+  font-size: 14px;
+}
+
+.texto-item-700 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-style: normal;
+}
+
+.texto-item-500 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.text-400 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 29px;
+  width: 410px;
+  height: 145px;
+}
+
+.text-modern {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 61.44px;
+}
+
+@media only screen and (min-width: 320px) {
+  #this-button a {
+    margin-left: 0px;
+    position: absolute;
+    width: 103px;
+    height: 31px;
+    left: 12px;
+    top: 19px;
+  }
+  .text-400 p {
+    max-width: 320px !important;
+  }
+  .navbar-toggler button {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 25%;
+    bottom: 25%;
+  }
+}
