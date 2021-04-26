@@ -27,12 +27,25 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark dark-bar">
-        <a class="navbar-brand btn btn-outline-dark borde-boton ml-4 mt-4" href="#" id="this-button">This is interior</a>
-        <button class="navbar-toggler ml-auto hidden-sm-up float-xs-right ml-4 mt-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a
+          class="navbar-brand btn btn-outline-dark borde-boton ml-4 mt-4"
+          href="#"
+          id="this-button"
+          >This is interior</a
+        >
+        <button
+          class="navbar-toggler ml-auto hidden-sm-up float-xs-right ml-4 mt-4"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse mt-4 mr-4" id="navbarNav">
-          <ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
+          <ul class="navbar-nav mt-2 mt-lg-0 ml-auto text-center">
             <li class="nav-item active">
               <a class="nav-link texto-item-700 m-4" href="#"
                 >Home <span class="sr-only">(current)</span></a
@@ -52,21 +65,37 @@
       </nav>
     </header>
     <main>
-      <div class="container">
+      <div class="container mt-4">
         <div class="row">
-          <div class="col text-white my-auto">
+          <div class="col-12 col-md-6 text-white my-auto">
             <p class="text-modern">Modern interior</p>
             <p class="text-400">
               A full-Service residential & commercial interior design and
               staging company offering professional organizing & eco-services.
             </p>
-            <p class="texto-item-700">
-              Read More <i class="fas fa-long-arrow-alt-right flechita"></i>
+            <p class="texto-item-700 mt-4">
+              Read More <i class="fas fa-long-arrow-alt-right ml-2"></i>
             </p>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-6">
             <div class="container img-container">
               <img class="img-fluid" src="photo1.png" alt="house photo" />
+            </div>
+          </div>
+        </div>
+        <div class="card dark-bar text-white mb-3 tarjeta-flotante" style="max-width: 540px">
+          <div class="row no-gutters">
+            <div class="col-sm-2 col-md-2">
+              <img src="photo2.png" alt="profile picture" class="ml-auto img-fluid rounded-circle profile-picture" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Aliza Webber</h5>
+                <small class="card-subtitle text-muted">Interior Designer</small>
+                <p class="card-text lora-700">
+                  Designed in 2020 by Aliza Webber
+                </p>
+              </div>
             </div>
           </div>
         </div>
