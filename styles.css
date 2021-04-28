@@ -11,6 +11,7 @@
 :root {
   --dark-color: #181719;
   --white: #ffffff;
+  --grey-footer: #A9A9A9;
 }
 
 body {
@@ -61,17 +62,27 @@ body {
   line-height: 61.44px;
 }
 
-.profile-picture{
-  max-width: 85px;
+.img-container{
+  position: relative;
 }
 
-.lora-700{
+.tarjeta-flotante{
+    min-width: 310px;
+    position: absolute;
+    left: calc(75% - 205px);
+    top: 420px;
+}
+
+.profile-picture {
+  max-width: 63px;
+}
+
+.lora-700 {
   font-family: "Lora", serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 30.72px;
 }
-
 
 @media only screen and (min-width: 320px) {
   #this-button a {
@@ -93,11 +104,50 @@ body {
     top: 25%;
     bottom: 25%;
   }
-  /* .tarjeta-flotante{
+  .tarjeta-flotante {
+    max-width: 300px;
     position: absolute;
-    top: 616px;
-    left: 71px;
-    max-width: 300px !important;
-    max-height: 138px;
-  } */
+    left: calc(60% - 126px);
+    top: 614px;
+  }
+  .lora-700{
+    font-size: 1em;
+  }
+}
+
+.text-grey{
+  color: var(--grey-footer);
+}
+
+
+@media only screen and (min-width: 320px) {
+  .tarjeta-flotante{
+    min-width: 153px;
+    max-width: 230px;
+    position: absolute;
+    left: calc(55% - 126px);
+    top: 162px;
+  }
+  .texto-item-700{
+    padding: 8px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tarjeta-flotante{
+    max-width: 273px;
+    max-height: 169px;
+    min-height: 169px;
+    position: absolute;
+    left: calc(50% - 126px);
+    top: 200px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .tarjeta-flotante{
+    position: absolute;
+    top: 258px;
+    left: calc(40% - 30px);
+  }
 }
