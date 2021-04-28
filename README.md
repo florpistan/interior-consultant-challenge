@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://imgur.com/a/CB3mn2U)
+![Screenshot](https://i.imgur.com/wawcX1I.png)
 
 ### Built With
 
